@@ -56,6 +56,6 @@ searchControl.on('results', function (data) {
 
           const marker = L.marker(latLng).addTo(map);
           marker.bindPopup(infowindow).openPopup();
+          map.flyTo([latitude,longtitude],12);
       } )
-
 });
