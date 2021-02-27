@@ -2,4 +2,4 @@
 
 ## Description
 
-![](Weather-Map.PDF)
+![](weather-map-screen.png)
