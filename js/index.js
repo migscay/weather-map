@@ -24,7 +24,7 @@ let map = L.map('map').setView([40.91, -96.63], 4);
 let latitude = 0;
 let longtitude = 0;
 let name = "";
-L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
