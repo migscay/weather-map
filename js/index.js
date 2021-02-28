@@ -27,6 +27,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
+// let searchControl = L.esri.BootstrapGeocoder.search({
+//   inputTag: 'address',
+//   placeholder: 'ex. LAX'
+// }).addTo(map);
 let searchControl = L.esri.Geocoding.geosearch().addTo(map);
 
 let results = L.layerGroup().addTo(map);
